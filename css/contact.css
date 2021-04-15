@@ -1,0 +1,26 @@
+.content-contact{
+    height: 100vh;
+    /* background-color: rgb(226, 226, 238); */
+    /* display: flex; */
+    margin-top: 32px;
+    padding: 9px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+.content-contact::after{
+
+    content: "";
+    background-image: url('../img/free-coffee-news-vector-illustration.jpg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+    border-radius: 12px;
+    z-index: -1;
+    /* padding: 6px; */
+}
+
+

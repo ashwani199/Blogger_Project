@@ -1,0 +1,10 @@
+.content::after{
+    content: "";
+    background-image: url('../img/univer.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.05;
+    border-radius: 12px;
+    /* padding: 6px; */
+}
